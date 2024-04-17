@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Login & registration-mobile Form</title>
+  <!---Custom CSS File--->
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    /* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  min-height: 100vh;
+  width: 100%;
+  background: #009579;
+}
+.container-mobile{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 430px;
+  width: 100%;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+.container-mobile .registration-mobile{
+  display: none;
+}
+#check-mobile:checked ~ .registration-mobile{
+  display: block;
+}
+#check-mobile:checked ~ .login-mobile{
+  display: none;
+}
+#check-login-form-mobile:checked + .login-form-mobile {
+    display: none;
+}
+#check-mobile{
+  display: none;
+}
+#check-login-form-mobile{
+    display: none;
+}
+.container-mobile .form-mobile{
+  padding: 2rem;
+}
+.form-mobile header{
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+ .form-mobile input{
+   height: 60px;
+   width: 100%;
+   padding: 0 15px;
+   font-size: 17px;
+   margin-bottom: 1.3rem;
+   border: 1px solid #ddd;
+   border-radius: 6px;
+   outline: none;
+ }
+ .form-mobile input:focus{
+   box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+ }
+.form-mobile a{
+  font-size: 16px;
+  color: #009579;
+  text-decoration: none;
+}
+.form-mobile a:hover{
+  text-decoration: underline;
+}
+.form-mobile input.button{
+  color: #fff;
+  background: #009579;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 1.7rem;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.form-mobile input.button:hover{
+  background: #006653;
+}
+.signup-mobile{
+  font-size: 17px;
+  text-align: center;
+}
+.signup-mobile label{
+  color: #009579;
+  cursor: pointer;
+}
+.signup-mobile label:hover{
+  text-decoration: underline;
+}
+.close-icon-mobile-link{
+    position: absolute;
+    top: 0;
+    right: 27px;
+    font-size: 40px;
+    text-decoration: none;
+}
+</style>
+<body>
+  <div class="container-mobile">
+    <input type="checkbox" id="check-login-form-mobile">
+
+    <div class="login-form-mobile">
+        <input type="checkbox" id="check-mobile">
+        <div class="login-mobile form-mobile">
+            <header>Đăng Nhập<header>
+            <form action="#">
+              <input type="text" placeholder="Enter your email">
+              <input type="password" placeholder="Enter your password">
+              <a href="#">sai mật khẩu?</a>
+              <input type="button" class="button" value="Login">
+            </form>
+            <div class="signup-mobile">
+              <span class="signup-mobile">Bạn chưa có tài khoản?
+               <label for="check-mobile">Signup</label>
+              </span>
+            </div>
+          </div>
+          <div class="registration-mobile form-mobile">
+            <header>Đăng Kí</header>
+            <form action="#">
+              <input type="text" placeholder="Enter your email">
+              <input type="password" placeholder="Create a password">
+              <input type="password" placeholder="Confirm your password">
+              <input type="button" class="button" value="Signup">
+            </form>
+            <div class="signup-mobile">
+              <span class="signup-mobile">Bạn đã có tài khoản rồi?
+               <label for="check-mobile">Login</label>
+              </span>
+            </div>
+          </div>
+          <div class="close-icon-mobile">
+              <label href="" for="check-login-form-mobile" class="close-icon-mobile-link">&times;
+              </label>
+          </div>
+    </div>
+    
+  </div>
+</body>
+</html>

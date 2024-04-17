@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>FERMENTUM AUTOMATION TECHNOLOGY</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+<!-- Icon Font Stylesheet -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <div class="logo">
+        <h1><a href="index.html">FERMENTUM</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a href="index.html"><img src="assets/img/fermentumv.png" alt="" class="img-fluid"></a>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="" href="index.html">Trang Chủ</a></li>
+          <li><a href="about.html">Về Chúng Tôi</a></li>
+          <li><a href="#">Tài Liệu</a></li>
+          <li class="dropdown" id="dropdown-parent">
+            <a href="#" id="dropdown-toggle"><span>Dịch Vụ</span> <i class="bi bi-chevron-down"></i></a>
+          </li>
+        </ul>
+        
+        <i class="bi bi-list mobile-nav-toggle"></i>
+        <div class="lg-lo nav-item dropdown px-3 login-icon">
+                
+          <a class="nav-link nav-profile d-flex align-items-center pe-0" id="btn-login">
+              <i class="fa fa-regular fa-user" style="font-weight:300;"></i>
+              <span class=" d-none d-md-block ps-2 menu-child-link" style="line-height:1px; cursor:pointer">
+                  Đăng nhập 
+               </span>
+             
+          </a>
+    
+  </div>
+       
+      </nav><!-- .navbar -->
+    
+    
+    </div>
+    <!-- Đăng nhập đăng kí  -->
+    <div class="login-out" id="login-out">
+      <div class="login-container" id="login-container">
+          <div class="form-container sign-up-container">
+              <form action="#">
+                  <h1>Đăng Kí</h1>
+                  <span>Sử dụng Email hoặc tên của bạn để đăng kí</span>
+                  <input type="text" placeholder="FullName" />
+                  <input type="email" placeholder="Email" />
+                  <input type="password" placeholder="Password" />
+                  <button>Đăng Kí</button>
+              </form>
+          </div>
+          <div class="form-container sign-in-container ">
+              <form action="#">
+                  <h1>Đăng Nhập</h1>
+                  
+                  <span>Hoặc sử dụng tài khoản của bạn</span>
+                  <input type="email" placeholder="Email" />
+                  <input type="password" placeholder="Password" />
+                  <a href="#">Quên Email hoặc Mật khẩu?</a>
+                  <button>Đăng Nhập</button>
+              </form>
+          </div>
+          <div class="overlay-container">
+              <div class="overlay">
+                  <div class="overlay-panel overlay-left">
+                      <h1>Chào mừng bạn đã trở lại!</h1>
+                      <p>Để duy trì kết nối với chúng tôi vui lòng đăng nhập thông tin cá nhân của bạn</p>
+                      <button class="ghost" id="signIn">Đăng Nhập</button>
+                  </div>
+                  <div class="overlay-panel overlay-right">
+                      <h1>Chào bạn!</h1>
+                      <p>Nhập thông tin của bạn và bắt đầu hành trình với chúng tôi</p>
+                      <button class="ghost" id="signUp">Đăng kí</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+     </div>
+     <!-- Đăng nhập đăng kí trên mobile -->
+     
+     <div class="container-login-mobile" id="container-login-mobile">
+      <input type="checkbox" id="check-login-form-mobile">
+  
+      <div class="login-form-mobile">
+          <input type="checkbox" id="check-mobile">
+          <div class="login-mobile form-mobile">
+              <header>Đăng Nhập<header>
+              <form action="#">
+                <input type="text" placeholder="Enter your email">
+                <input type="password" placeholder="Enter your password">
+                <a href="#">sai mật khẩu?</a>
+                <input type="button" class="button" value="Login">
+              </form>
+              <div class="signup-mobile">
+                <span class="signup-mobile">Bạn chưa có tài khoản?
+                 <label for="check-mobile">Signup</label>
+                </span>
+              </div>
+            </div>
+            <div class="registration-mobile form-mobile">
+              <header>Đăng Kí</header>
+              <form action="#">
+                <input type="text" placeholder="Enter your email">
+                <input type="password" placeholder="Create a password">
+                <input type="password" placeholder="Confirm your password">
+                <input type="button" class="button" value="Signup">
+              </form>
+              <div class="signup-mobile">
+                <span class="signup-mobile">Bạn đã có tài khoản rồi?
+                 <label for="check-mobile">Login</label>
+                </span>
+              </div>
+            </div>
+            <div class="close-icon-mobile">
+                <label href="" for="check-login-form-mobile" class="close-icon-mobile-link">&times;
+                </label>
+            </div>
+      </div>
+      
+    </div>
+    <div class="service-container" id="service-container">
+      <div class="row service-menu">
+        <div class="col-lg-4 col-md-6 ">
+          <h4>Về chúng tôi</h4>
+          <ul class="sevice-menu-list">
+            <li class="sevice-menu-item"><a href="#">Lập trình hệ thống scanda</a></li>
+            <li class="sevice-menu-item"><a href="#">Hệ thống quản lí năng lượng</a></li>
+            <li class="sevice-menu-item"><a href="#">Tủ điện công nghiệp</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6 ">
+          <h4>Về chúng tôi</h4>
+          <ul class="sevice-menu-list">
+            <li class="sevice-menu-item"><a href="#">Lập trình hệ thống scanda</a></li>
+            <li class="sevice-menu-item"><a href="#">Hệ thống quản lí năng lượng</a></li>
+            <li class="sevice-menu-item"><a href="#">Tủ điện công nghiệp</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6 ">
+          <h4>Về chúng tôi</h4>
+          <ul class="sevice-menu-list">
+            <li class="sevice-menu-item"><a href="#">Lập trình hệ thống scanda</a></li>
+            <li class="sevice-menu-item"><a href="#">Hệ thống quản lí năng lượng</a></li>
+            <li class="sevice-menu-item"><a href="#">Tủ điện công nghiệp</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+ 
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="mobile-hero">
+    <div class="hero-container">
+      <div id="heroCarousel" data-bs-interval="4000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+        <ol class="carousel-indicators d-none" id="hero-carousel-indicators"></ol>
+
+        <div class="carousel-inner carousel-slider" role="listbox">
+          <div class="carousel_container container">
+            <div class="title_list">
+              <p class="title_item">CÔNG NGHỆ TỰ ĐỘNG HÓA FERMENTUM (FAT)</p>
+              <p class="title_item">THIẾT KẾ - CUNG CẤP - LẮP ĐẶT HỆ THỐNG TỰ ĐỘNG HÓA</p>
+              <p class="title_item">"Vấn đề của bạn, Sứ mệnh của tôi"</p>
+            </div>
+            <div class="menu_child">
+              <div class="menu_child_list">
+                  <a class="menu_child_item" href="design-consuling.html"> TƯ VẤN <br> THIẾT KẾ</a>
+                  <a class="menu_child_item" href="provide-products.html" >CUNG CẤP
+                      <br> SẢN PHẨM</a>
+                  <a class="menu_child_item" href="provide-solutions.html">CUNG CẤP <br> GIẢI PHÁP</a>
+              </div>
+            </div>
+           
+          </div> 
+          <!-- Slide 1 -->
+          <div class="carousel-item active" >
+            <img src="./assets/img/slide/Img3.jpg"  alt="">
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item" >
+            <img src="./assets/img/slide/Img4.jpg"  alt="">
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item" >
+            <img src="./assets/img/slide/Img6.jpg"  alt="">
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+ 
+
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-7 col-md-6 footer-contact mobile-footer-contact">
+            <p>
+              FERMENTUM AUTOMATION TECHNOLOGY COMPANY LIMITED <br>
+              <strong>Adress:</strong> Vinh City, Nghe An Province, Vietnam <br>
+              <strong>&copy; Copyright</strong> ©2024 FERMENTUM. All Rights Reserved<br>
+              
+            </p>
+
+          </div>
+
+          <div class="col-lg-5 col-md-6 footer-info mobile-footer-info">
+           
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+
+            <div class="contact">
+              <a href="#" class="contact-link">Liên Hệ</a>
+          </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <!-- <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a> -->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

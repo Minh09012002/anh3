@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../PHP"
+		},
+		{
+			"path": "../../../../DACN!"
+		},
+		{
+			"path": "../../../../ÔnTap"
+		},
+		{
+			"path": "C:/Users/HP/Desktop/javas/java_06"
+		},
+		{
+			"path": "../../../../../../Thi_Giac_May_Tinh/Python"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "UNITOP",
+		"java.compile.nullAnalysis.mode": "automatic"
+	}
+}
